@@ -56,7 +56,7 @@
   z-index: 5;
 }
 
-.circle {   /* Aplica a mi PC y ipad horizontal */
+.circle {   /* Aplica a mi PC y ipad horizontal. PC: hasta 100% zoom en Chrome */
   height: 50px;
   width: 50px;
   background-color: yellow;
@@ -65,7 +65,7 @@
 
 
 /* - - -  Media Queries  - - - */
-@media only screen and (max-width: 980px) { 
+@media only screen and (max-width: 980px) {   /* PC: 110 - 125% zoom en Chrome */
     h1 {
         font-size:      40px;
     }
@@ -79,7 +79,7 @@
 
 }
 
-@media only screen and (max-width: 768px) {   /* Aplica a mi celular horizontal y ipad vertical */
+@media only screen and (max-width: 768px) {   /* Aplica a mi celular horizontal y ipad vertical. PC: 150% zoom en Chrome  */
     .centerImage {
         display: block;
         margin-left: auto;
@@ -109,13 +109,13 @@
     
 }
 
-@media only screen and (max-width: 640px) {   /* Aplica a mi celular vertical */
+@media only screen and (max-width: 640px) {   /* Aplica a mi celular vertical. PC: 125% - 500% zoom en Chrome  */
     .centerImage {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        margin-top: -20px;
+        margin-top: -25px;
         z-index: 5;
     }
 
@@ -169,7 +169,7 @@
 <div class="circle"></div>
 <br>
 <br>
-<p> 20:49 </p>
+<p> 21:04 </p>
 
 
 </body>
