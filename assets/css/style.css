@@ -17,6 +17,8 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
+    width: 85%;
+    margin: auto;
   }
   
   .bottom-left {
