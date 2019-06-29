@@ -1,0 +1,139 @@
+/*  style.css      */
+/*  My Portfolio   */
+/*  29/Jun/2019    */
+
+body {
+    background-image:   url("../images/ep_naturalwhite.png");
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+  
+/* - - - -  class  - - - - - */  
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 30%;
+    right: 15%;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 30%;
+    right: 15%;
+  }
+  
+  .top-centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: -58px;
+    z-index: 5;
+  }
+  
+  .centerImage2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .circle {   /* Aplica a mi PC y ipad horizontal. PC: hasta 100% zoom en Chrome */
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+
+
+/* - - - -  id  - - - - - */
+
+
+/* - - -  Media Queries  - - - */
+@media only screen and (max-width: 980px) {   /* PC: 110 - 125% zoom en Chrome */
+    h1 {
+        font-size:      40px;
+    }
+
+    .circle {
+        height: 50px;
+        width: 50px;
+        background-color: green;
+        border-radius: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {   /* Aplica a mi celular horizontal y ipad vertical. PC: 150% zoom en Chrome  */
+    .centerImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: -10px;
+        z-index: 5;
+    }
+
+    .circle {
+        height: 50px;
+        width: 50px;
+        background-color: blue;
+        border-radius: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {   /* Aplica a mi celular vertical. PC: 125% - 500% zoom en Chrome  */
+    .centerImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: -23px; /* ok */
+        z-index: 5;
+    }
+
+    .centerImage2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        font-size: small;
+    }
+
+    .circle {
+        height: 50px;
+        width: 50px;
+        background-color: red;
+        border-radius: 50%;
+    }
+    
+}
