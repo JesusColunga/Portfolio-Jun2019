@@ -60,13 +60,6 @@ h1 {
     width: 50%;
   }
   
-  .circle {   
-    height: 50px;
-    width: 50px;
-    background-color: yellow;
-    border-radius: 50%;
-  }
-
   .card-group{
       max-width: 85%;
       margin: auto;
@@ -90,21 +83,9 @@ h1 {
 
 /* - - -  Media Queries  - - - */
 @media only screen and (max-width: 980px) {   /* PC: 110 - 125% zoom en Chrome */
-    .circle {
-        height: 50px;
-        width: 50px;
-        background-color: green;
-        border-radius: 50%;
-    }
 }
 
 @media only screen and (max-width: 768px) {   /* Aplica a mi celular horizontal y ipad vertical. PC: 150% zoom en Chrome  */
-    .circle {
-        height: 50px;
-        width: 50px;
-        background-color: blue;
-        border-radius: 50%;
-    }
 }
 
 @media only screen and (max-width: 640px) {   /* Aplica a mi celular vertical. PC: 125% - 500% zoom en Chrome  */
@@ -120,10 +101,4 @@ h1 {
         font-size: small;
     }
 
-    .circle {
-        height: 50px;
-        width: 50px;
-        background-color: red;
-        border-radius: 50%;
-    }  
 }
