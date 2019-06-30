@@ -13,6 +13,7 @@ h1 {
 
   
 /* - - - -  class  - - - - - */  
+/* Aplica a mi PC y ipad horizontal. PC: hasta 100% zoom en Chrome */
 
 .container {
     position: relative;
@@ -51,16 +52,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  /*
-  .centerImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-top: -58px;
-    z-index: 5;
-  }
-  */
+  
   .centerImage2 {
     display: block;
     margin-left: auto;
@@ -68,11 +60,20 @@ h1 {
     width: 50%;
   }
   
-  .circle {   /* Aplica a mi PC y ipad horizontal. PC: hasta 100% zoom en Chrome */
+  .circle {   
     height: 50px;
     width: 50px;
     background-color: yellow;
     border-radius: 50%;
+  }
+
+  .card-group{
+      max-width: 85%;
+      margin: auto;
+  }
+
+  .fontSize1 {
+    font-size: 0.8rem;
   }
 
 
@@ -80,6 +81,7 @@ h1 {
 #imgBB {
     max-width: 80%;
 }
+
 
 /* - - -  Media Queries  - - - */
 @media only screen and (max-width: 980px) {   /* PC: 110 - 125% zoom en Chrome */
@@ -94,27 +96,15 @@ h1 {
         background-color: green;
         border-radius: 50%;
     }
-
 }
 
 @media only screen and (max-width: 768px) {   /* Aplica a mi celular horizontal y ipad vertical. PC: 150% zoom en Chrome  */
-    /*
-    .centerImage {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        margin-top: -10px;
-        z-index: 5;
-    }
-*/
     .circle {
         height: 50px;
         width: 50px;
         background-color: blue;
         border-radius: 50%;
     }
-
 }
 
 @media only screen and (max-width: 640px) {   /* Aplica a mi celular vertical. PC: 125% - 500% zoom en Chrome  */
@@ -122,16 +112,6 @@ h1 {
         max-width: 95%;
     }
     
-    /*
-    .centerImage {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        margin-top: -23px; /* ok * /
-        z-index: 5;
-    }
-*/
     .centerImage2 {
         display: block;
         margin-left: auto;
@@ -145,6 +125,5 @@ h1 {
         width: 50px;
         background-color: red;
         border-radius: 50%;
-    }
-    
+    }  
 }
