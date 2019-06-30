@@ -76,6 +76,11 @@ h1 {
     font-size: 0.8rem;
   }
 
+  .card-deck{
+    max-width: 85%;
+    margin: auto;
+  }
+
 
 /* - - - -  id  - - - - - */
 #imgBB {
@@ -85,11 +90,6 @@ h1 {
 
 /* - - -  Media Queries  - - - */
 @media only screen and (max-width: 980px) {   /* PC: 110 - 125% zoom en Chrome */
-    /*
-    h1 {
-        font-size:      40px;
-    }
-*/
     .circle {
         height: 50px;
         width: 50px;
