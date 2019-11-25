@@ -1,6 +1,6 @@
-<!--  portfolio.html     -->
+<!--  portfolio.html -->
 <!--  My Portfolio   -->
-<!--  20/Juj/2019    -->
+<!--   7/Nov/2019    -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -63,7 +63,7 @@
 
         <div class="card border-success my-5">
             <div class="card-body">
-                <a href="https://jesuscolunga.github.io/unit-4-game/" target="_blank">
+                <a href="https://jesuscolunga.github.io/StarWarsGame/" target="_blank">
                     <img class="card-img-top" src="assets/images/Star Wars Game.PNG" alt=" Star Wars Game ">
                 </a>
             </div>
@@ -90,7 +90,7 @@
 
         <div class="card border-success my-5">
             <div class="card-body">
-                <a href="https://jesuscolunga.github.io/U6-GifTastic/" target="_blank">
+                <a href="https://jesuscolunga.github.io/GifTastic/" target="_blank">
                     <img class="card-img-top" src="assets/images/GifTastic.PNG" alt=" GifTastic ">
                 </a>
             </div>
@@ -117,7 +117,7 @@
 
         <div class="card border-success my-5">
             <div class="card-body">
-                <a href="https://jesuscolunga.github.io/Project1-Apr2019/" target="_blank">
+                <a href="https://jesuscolunga.github.io/MyHeadlines-Apr2019/" target="_blank">
                     <img class="card-img-top" src="assets/images/MyHeadlines.PNG" alt=" My Headlines ">
                 </a>
             </div>
